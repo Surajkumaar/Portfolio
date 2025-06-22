@@ -63,8 +63,14 @@ const AboutSection = () => {
               style={{ transitionDelay: '300ms' }}
             >
               <div className="relative card-tilt glow-border rounded-xl overflow-hidden p-1 bg-gradient-to-br from-deep-blue to-deep-blue/50">
+                <img 
+                  src="/Avatar.png" 
+                  alt="Profile Avatar" 
+                  className="w-full h-85 object-cover rounded-lg z-10 relative shadow-lg border-4 border-electric-purple/30" 
+                  style={{ background: 'rgba(138,43,226,0.05)' }}
+                />
                 <svg 
-                  className="w-full h-auto rounded-lg"
+                  className="w-full h-auto rounded-lg absolute inset-0 z-0"
                   viewBox="0 0 24 24"
                   width="100%"
                   height="300"
